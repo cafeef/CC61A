@@ -16,8 +16,8 @@ def criacaoMatriz ():
             lista.append(randint(1, 50))
             if lista[coluna] > nM:
                 nM = lista[coluna]
-                localizacao[0] = linha
-                localizacao[1] = coluna
+                localizacao[0] = linha + 1
+                localizacao[1] = coluna + 1
             coluna += 1
         matriz.append(lista)
         linha += 1
