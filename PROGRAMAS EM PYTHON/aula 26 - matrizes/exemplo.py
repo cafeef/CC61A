@@ -1,8 +1,15 @@
-matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+i = int(input('Digite o número de linhas da matriz: '))
+j = int (input('Digite o número de colunas da matriz: '))
+matriz = []
+
 linha = 0
-while (linha < 3):
+while (linha < i):
     coluna = 0
-    while (coluna < 3):
-        print(matriz[linha][coluna])
+    lista = []
+    while (coluna < j):
+        elemento = int(input())
         coluna += 1
+    matriz.append(lista)
     linha += 1
+
+print(matriz)
