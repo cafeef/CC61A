@@ -25,14 +25,14 @@ def criacaoMatrizes():
 def somaMatriz(matriz):
     somaM = 0
     linha = 0
+    lista = []
     while (linha < 3):
         soma = 0
         coluna = 0
-        lista = []
         while (coluna < 3):
             soma = soma + matriz[linha][coluna]
             coluna += 1
-        if (soma > somaM):
+        if (somaM < soma):
             somaM = soma
             lista.append(matriz[linha])
         linha += 1
