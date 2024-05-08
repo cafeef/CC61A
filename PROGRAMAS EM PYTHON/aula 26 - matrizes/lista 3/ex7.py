@@ -14,15 +14,15 @@ def criacaoMatriz():
         while (coluna < 10):
             if (linha < coluna):
                 elemento = 0
-                elemento = (2*linha) + (7*coluna+ 2) 
+                elemento = (2*linha) + (7*coluna) + 2
                 lista.append(elemento)
             elif(linha == coluna):
                 elemento = 0
-                elemento = (3*(linha**2)+ 1) 
+                elemento = (3*(linha**2)) + 1
                 lista.append(elemento)
             elif (linha > coluna): 
                 elemento = 0
-                elemento = (4*(linha**3)) + (5*(coluna**2)+ 1)
+                elemento = (4*(linha**3)) + (5*(coluna**2))+ 1
                 lista.append(elemento) 
             coluna += 1
         matriz.append(lista)
