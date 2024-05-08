@@ -25,7 +25,6 @@ def criacaoMatrizes():
 def somaMatriz(matriz):
     somaM = 0
     linha = 0
-    lista = []
     while (linha < 3):
         soma = 0
         coluna = 0
@@ -33,6 +32,7 @@ def somaMatriz(matriz):
             soma = soma + matriz[linha][coluna]
             coluna += 1
         if (somaM < soma):
+            lista = []
             somaM = soma
             lista.append(matriz[linha])
         linha += 1
