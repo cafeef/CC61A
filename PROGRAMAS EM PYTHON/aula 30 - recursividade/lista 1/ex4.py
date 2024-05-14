@@ -13,4 +13,4 @@ if (n1 > n2):
 else: 
         cont = n1
 mdc = mdc(n1, n2, cont)
-print(f'O mdc de {n1} e {n2} é: {mdc}')
+print(f'O MDC de {n1} e {n2} é: {mdc}')
