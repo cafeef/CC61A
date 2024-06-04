@@ -1,4 +1,4 @@
-lista = [1, 2, 3, 4, 5, 6, 7, 8]
+lista = [1, 2, 3, 4, 5]
 tamanho = len(lista)
 i = 0
 indicemet1 = tamanho - 1
