@@ -18,6 +18,6 @@ def Collatz(n, passos):
 
 #Programa principal
 n = int(input('Digite o termo que deseja calcular os passos: '))
-passos = 1
+passos = 0
 passos = Collatz(n, passos)
 print(f'O número de passos foi: {passos}')
