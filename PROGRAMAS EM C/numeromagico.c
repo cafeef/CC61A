@@ -8,9 +8,7 @@ int main(){
     scanf("%d", &chute);
     if (chute == magico) puts("Número correto!");
     else {
-        puts("Errado...");
-        if (chute > magico) puts("Muito alto!");
-        else puts("Muito baixo!");
+        chute > magico ? puts("Muito alto!") : puts("Muito baixo!");
     }
     return 0;
 }
